@@ -1,13 +1,14 @@
 {
   "name": "excalidraw-ai-proxy-simple",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "node-fetch": "^2.6.1"
+    "next": "latest"
   },
   "engines": {
     "node": "18.x"
