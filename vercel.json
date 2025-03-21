@@ -2,12 +2,6 @@
   "version": 2,
   "public": true,
   "regions": ["iad1"],
-  "functions": {
-    "api/**/*": {
-      "runtime": "edge",
-      "memory": 128
-    }
-  },
   "headers": [
     {
       "source": "/api/(.*)",
